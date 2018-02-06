@@ -1,9 +1,9 @@
 gulp-polymer-config-build
 =========================
 
-Use this gulp plugin to easily replace polymer-cli build command. This
-will still use your build configs from your polymer.json, so setup is
-quick and easy.
+Use this gulp plugin to easily extend the `polymer-cli build` command.
+This will still use your build configs from your polymer.json, so setup
+is quick and easy.
 
 The `createBuildStreams` function returns a javascript object for each
 build, with the key being the build name and the value a vinyl stream
@@ -12,7 +12,7 @@ that can be piped using gulp.
 You can override the source stream by supplying `source` in the
 `opts` argument. By default, `polymerProject.sources()` is used.
 
-# Basic Example
+## Basic Example
 
 ```javascript
 'use strict';
@@ -40,7 +40,7 @@ gulp.task('build', () => {
 });
 ```
 
-# Overriding sources stream
+## Overriding the sources stream
 ```javascript
     const opts = {};
     opts.sources = polymerProject.sources()
