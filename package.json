@@ -1,5 +1,5 @@
 {
-  "name": "gulp-polymer-config-build",
+  "name": "gulp-polymer-build",
   "version": "1.0.0",
   "description": "Gulp plugin to emulate polymer-cli build command",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bendavis78/gulp-polymer-config-build.git"
+    "url": "git+https://github.com/bendavis78/gulp-polymer-build.git"
   },
   "keywords": [
     "gulp",
@@ -17,9 +17,9 @@
   "author": "Ben Davis <bendavis78@gmail.com> (http://github.com/bendavis78)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bendavis78/gulp-polymer-config-build/issues"
+    "url": "https://github.com/bendavis78/gulp-polymer-build/issues"
   },
-  "homepage": "https://github.com/bendavis78/gulp-polymer-config-build#readme",
+  "homepage": "https://github.com/bendavis78/gulp-polymer-build#readme",
   "dependencies": {
     "@types/babel-core": "^6.7.14",
     "@types/merge-stream": "^1.0.28",

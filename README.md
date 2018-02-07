@@ -1,4 +1,4 @@
-gulp-polymer-config-build
+gulp-polymer-build
 =========================
 
 Use this gulp plugin to easily extend the `polymer-cli build` command.
@@ -21,7 +21,7 @@ const del = require('del');
 const path = require('path');
 const gulp = require('gulp');
 const polymerBuild = require('polymer-build');
-const polymerConfigBuild = require('gulp-polymer-config-build');
+const polymerConfigBuild = require('gulp-polymer-build');
 const buildDirectory = 'build';
 
 // get a PolymerProject object based on your polymer.json
