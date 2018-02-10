@@ -125,6 +125,9 @@ function createBuildStreams(polymerProject, opts) {
     const promises = [];
     for (let buildOptions of builds) {
       let name = buildOptions.name;
+      if (opts.build && name !== opts.build) {
+        continue;
+      }
       promises.push(createBuildStream(polymerProject, buildOptions, opts)
         .then(buildStream => {
           buildStreams[name] = buildStream;
